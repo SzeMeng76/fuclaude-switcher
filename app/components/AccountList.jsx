@@ -166,7 +166,7 @@ export default function AccountList() {
 
   const getApiUrl = (account) => {
     if (useCommonDomain) {
-      return `https://demo.fuclaude.com`;
+      return `https://claude.smone.us`;
     } else {
       return `https://${account.apiPrefix||'default'}.fuclaude.oaifree.com`;
     }
